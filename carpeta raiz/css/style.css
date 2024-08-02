@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: "maru";
-    src: url(../font/maru.ttf)
+    src: url("../font/maru.ttf")
 }
 
 @font-face {
@@ -55,10 +55,8 @@ a {
 
 .descripcion {
     background-color: #77e68a;
-    font-family: "juli";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #f0f8ff;
-    font-size: x-small;
-    grid-area: descripcion;
     padding-top: 2rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
@@ -289,16 +287,18 @@ p {
 }
 
 .ContactoMujeres {
-    background-color: #c595ff;
+   
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-radius: 25px;
-    border-color: #77e68a;
-    border-style: solid;
+  
+    
     margin-bottom: 2rem;
     margin-top: 2rem;
     margin-left: 3rem;
-    margin-right: 3rem
+    margin-right: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
 }
 
 .mail {
@@ -450,33 +450,33 @@ p {
 }
 
 .imagen-principal {
-    background-color: #03bfc0;
+
     border-radius: 45px;
     text-align: center;
     padding: 2rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
-    border-color: #ff0;
-    border-width: 5px;
-    border-style: solid
+    ;
+
+
+    ;
 }
 
 .imagen-principal:hover {
     border-width: 10px;
-    background-color: #05e9e9;
+
     animation: tada;
     animation-duration: 2s
 }
 
 .titulo1 {
-    background-color: #6a38a6;
+
     border-radius: 20px;
     padding: 3rem;
     text-align: center;
-    color: #ebfc09;
-    border-color: #c595ff;
-    border-style: solid;
-    font-family: "juli"
+    color: #ffffff;
+    font-family: "juli";
+    font-size: xx-large;
 }
 
 .descripcion {
@@ -567,9 +567,7 @@ p {
     text-align: center
 }
 
-.precios {
-    background-color: #c595ff
-}
+
 
 .lengua {
     width: 20px;
@@ -604,147 +602,232 @@ p {
 }
 
 .mate {
-    background-color: #8a6baf;
-    font-family: "juli";
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
+
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .taza {
-    background-color: #8a6baf;
-    font-family: "juli";
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
+   
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .jardin {
-    background-color: #8a6baf;
-    font-family: "juli";
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
+   
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .vaso {
-    background-color: #8a6baf;
-    font-family: "juli";
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+  
+   
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .llaves {
-    background-color: #8a6baf;
-    font-family: "juli";
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .cuadro {
-    background-color: #8a6baf;
-    font-family: "juli";
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .mascotas {
-    background-color: #8a6baf;
-    font-family: "juli";
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .remeras {
-    background-color: #8a6baf;
-    font-family: "juli";
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .botella {
-    background-color: #8a6baf;
-    font-family: "juli";
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .bebe {
-    background-color: #8a6baf;
-    font-family: "juli";
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .bandeja {
-    background-color: #8a6baf;
-    font-family: "juli";
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
 .rompecabeza {
-    background-color: #8a6baf;
-    font-family: "juli";
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     border-radius: 20px;
-    border-color: #fff;
-    border-style: solid;
+
     color: #fff;
     padding: 2rem;
     margin: 1rem
 }
 
-/*# sourceMappingURL=style.css.map */
+.card-title {
+    font-size: medium;
+}
+
+.texto1 {
+    text-align: right;
+    padding: 10%;
+    font-weight: 400;
+    font-size: x-large;
+    color: #ffffff;
+    min-width: 250px;
+
+
+
+}
+
+.imgSublimacion {
+    margin: 10%;
+    justify-content: left;
+    width: 300px;
+
+
+
+}
+
+main {
+    background-color: #8061a7;
+}
+
+@media(max-width:998px) {
+    .texto1 {
+        text-align: left;
+        padding: 10%;
+        font-weight: 400;
+        font-size: medium;
+        color: #ffffff;
+        width: 90%;
+    }
+
+
+
+
+}
+
+@media(max-width:990px) {
+    .imgSublimacion {
+        margin: 10%;
+        justify-content: center;
+        width: 400px;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:400px) {
+    .imgSublimacion {
+        margin: 10%;
+        justify-content: center;
+        width: 250px;
+        text-align: center;
+    }
+}
+
+@media(max-width:300px) {
+    .imgSublimacion {
+        margin: 10%;
+        justify-content: left;
+        width: 150px;
+        text-align: center;
+    }
+
+
+}
+
+@media(max-width:500px) {
+    .texto1 {
+        text-align: center;
+        padding: 10%;
+        font-weight: 400;
+        font-size: medium;
+        color: #ffffff;
+        width: 80%;
+
+    }
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
